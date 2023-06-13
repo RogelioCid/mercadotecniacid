@@ -1,0 +1,112 @@
+/* Diseño para Tablets y Celulares */
+
+.display-min {
+	display: inherit !important
+}
+
+	/* El Encabezado */
+
+.encabezado img {
+	width: 40px;
+}
+
+li > ul {
+	display: none;
+}
+
+
+
+li:hover > ul {
+	display: block;
+}
+
+.horizontal a {
+	font-size: 15px;
+	display: block;
+}
+
+	/* El cuerpo PORTADA */
+
+.portada {
+	padding: 20px;
+}
+
+.portada img {
+	width: 100px;
+}
+
+
+.portada h2 {
+	
+	font-size: 1em;
+	padding: 20px 0px 10px;
+}
+
+.portada p {
+	font-size: 0.8em;
+	padding: 5px;
+}
+
+
+	/* El cuerpo MINI-GUÍAS */
+	
+.mini-guias {
+	padding: 20px;
+}
+
+.mini-guias h3 {
+	font-size: 1em;
+}
+
+.mini-guias ul {
+	display: block;
+}
+
+.mini-guias li {
+	margin: 0px 0px 80px;
+}
+
+.mini-guias img {
+	width: 15em;
+}
+
+.mini-guias p {
+	font-size: 1em;
+}
+
+
+	/* el cuerpo INFOGRAFÍAS */
+	
+.info {
+	padding: 20px;
+}
+
+.info h3 {
+	font-size: 1em;
+	padding: 20px;
+}
+
+.lista {
+	display: block;
+}
+
+.info p {
+	font-size: 0.8em;
+}
+
+
+	/* El Pie de página */
+	
+
+.pie nav {
+	padding: 20px;
+}
+
+.pie ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+
